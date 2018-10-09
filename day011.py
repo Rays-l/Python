@@ -17,8 +17,10 @@ class Account:
         print self.lixi
 AC=Account(1122,20000,4.5)
 AC.getlilv()
-AC.getlixi()
 AC.withdraw(2500)
+AC.getlixi()
+AC.show()
 AC.withdraw(-3000)
+AC.getlixi()
 AC.show()
 
