@@ -7,7 +7,7 @@ class Rectangle:
         mianji = self.wigth*self.height
         print mianji
     def getPerimeter(self):
-        zhouchang = 2*self.wight+2*self,height
+        zhouchang = 2*(self.wigth+self.height)
         print zhouchang
 
 Rectangle(4,40).getArea()
